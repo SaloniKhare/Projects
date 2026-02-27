@@ -1,0 +1,180 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi","Hey","How are you","Is anyone there?","Hello","Good day",
+        "Is this TacoBot","hello","hi there","nice to meet you","hi","is this the TacoBot ?","is this dark ?","hey","hi there","hi, TacoBot ?","hello there","anyone there ?","is this TacoBot","is this TacoBot"," hi, TacoBot ?"
+      ],
+      "responses": [
+        "Hey :-)","Hello, thanks for visiting","Hi there, what can I do for you?","Hi there, how can I help?",
+        "Hi, This is TacoBot","hello there. Tis is TacoBot ","This is TacoBot, at your service","hello. This is TacoBot. How may I help you ?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","Thanks","Thank you","Thanks","Thanks for the info","bye","bye bro","adios","okay bye","goodbye","see you later","i will catch you later","i will catch up later","okay i will see you later","I will talk to you later","will text you later","bye bro, I'll talk to you later","Bye brother"],
+      "responses": [
+        "See you later, thanks for visiting","Have a nice day","Bye! Come back again soon.","Okay, Bye","Have a nice day","Goodbye","Take care","Okay , Take care","Thank you. Please visit again"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell Tacos. \n Here's our menu:\nTACOS: \nChicken---10$, Grilled Pork---12$, Vegetarian---8$, Beef---15$\nDrinks: Coke---3$, Orange Juice---5$, Coffee---4$\nWhat would you like to order?",
+        "We have different varieties of tacos. \n Here's our menu:\nTACOS: \nChicken---10$, Grilled Pork---12$, Vegetarian---8$, Beef---15$\nDrinks: Coke---3$, Orange Juice---5$, Coffee---4$\nWhat would you like to order?"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag":"timings",
+      "patterns":["when does the restaurant open ?","what about the restaurant timing","what is the timing of the restaurant ?","what are the timings of the restaurant","what are the timings of the hotel","what is the timings for the restaurant ?","when will the restaurant be open ?","what are the working days and timing ?","may i know the timings at which the restaurant may be open ?","restaurant timings please","when are you guys open", "what are your hours", "hours of operation", "hours", "what is the timing", "when are you open", "Are you open on all days?", "are you open now", "are you open on holidays", "are you guys open on all weekdays?", "working hours", "hours", "what are your working hours?"],
+      "responses":[
+        "We are available from 8:00am - 9:30pm on all the days of the week","Working hours are 8:00am - 9:30pm and we are available on all the days"
+      ]
+    },
+    {
+      "tag":"location",
+      "patterns":["where is the restaurant located","location of carpe diem","where is the hotel located ?","where is the restaurant","how many branches are there ?","where are you from ?","where are the restaurants located ?","where are the hotels located ?","how many branches are there and thier location ?","how many branches are there and where are they ?","can you tell us the location of the restaurants","can you share the location of the hotels","location of the hotel","where is the hotel located ?","where is the restaurant located ?"],
+      "responses":[
+        "We have 3 main branches all over India. (Bhopal-Madhya Pradesh, Pune - Maharashtra , Delhi)","We have a branch in Bhopal, Pune and delhi"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you", "Are you human?", "Am i talking to a bot", "Are you a bot", "Can i have your name please", "name"],
+      "responses": ["You can call me TacoBot.", "I'm TacoBot!", "I'm TacoBot."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact information", "how do we contact you", "how can i contact you", "can i get the contact details", "I wanna give some feedback", "how can i give some feedback?", "CAn you give me the contact of an executive?", "What is the help desk phone number?","Can you give me your number", "Can i get the customer care number?", "CAn I get help desk number"],
+      "responses": ["You can contact us at contact@tacobot.com, our help desk number is 8787878787"]
+    },
+    {"tag": "positive_feedback",
+      "patterns": ["the noodles were amazing","i loved the food", "you did a good job", "Love the food", "Really love it", "Love the staff behavior", "my son devoured the brownie!", "pizza was so cheesy!", "perfectly baked", "we are very satisfied with the service", "the soup was a real game changer", "such delicious flavours", "so glad we discovered this place", "Me and my family is very satisfied with this service and food", "this place is awesome"],
+      "responses": ["Thanks so much for sharing your experience with us.","Thank you so much for taking the time to leave us feedback.","Is there anything we can do to improve?","We hope to see you again soon!","We’re really grateful and appreciate you taking the time to share your rating with us.","We’re glad that you enjoyed our service!"]
+    },
+    {
+      "tag": "negative_feedback",
+      "patterns": ["what the fuck is wrong with these noodles?", "The choco lava was so undercooked", "Ew such a waste of money man", "Prices are too high honestly", "I hate the menu, such less options", "too salty", "we were served cold food", "so disappointed", "the food is pathetic", "hate it", "my wife hates the food","eww", "hate the staff behavior", "i hate it", "hate the service","please train the staff properly", "This was such a waste of money", "Hate the staff", "Extremely dissatisfied", "disappointed", "so bad", "very bad", "disgusting food"],
+      "responses": ["Thank you for your review. I’m sorry to hear you had a frustrating experience, but I really appreciate you bringing this issue to my attention.","Thank you for bringing this to our attention. We’re sorry you had a bad experience. We’ll strive to do better. ","Thank you for letting us know about this. Your feedback helps us do better. We are looking into this issue and hope to resolve it promptly and accurately."]
+    },
+    {
+      "tag": "sanitation",
+      "patterns": ["is it really safe to eat here?","Could you tell your COVID safety protocols?", "I would like to know about the cleanliness of the restaurant", "Please share your sanitization process", "I am concerned about the COVID related sanitization", "Is it safe to eat out in this pandemic?", "are you clean", "i am concerned about the cleanliness"],
+      "responses": ["I understand your concern. Here are the WHO recommended COVID protocols we follow to ensure your safety: \n 1. All our staff are double masked 24x7. \n 2. All our staff is checked for fevers and other symptoms daily. \n 3. All surfaces are frequently sanitized. \n 4. We use this friendly bot to reduce physical closeness to the least!"]
+    },
+    {
+      "tag": "offers",
+      "patterns": ["Could you tell me the pocket friendly options?","Are there any discounts going on?", "Are there any special offers today?", "What about the festive offers?", "Could you please tell me which foods are on discount?", "are there any discounts", "are there any discount offers", "do you have any offers?", "what are the offers going on?", "what are the discounts available?"],
+      "responses": ["Today's offers are : \n 20% off on drinks and 1+1 offer on chicken tacos.","Offers are : \n 20% off on drinks and 1+1 offer on chicken tacos."]
+    },
+    {"tag": "vegan_enquiry",
+        "patterns": ["Can I see the vegan option?","Do you have any vegan options??", "What is vegan in your menu?", "I am vegan.", "Do you also have vegan food?", "vegan", "is this restaurant vegan", "is this place vegan"],
+        "responses": ["Sure! We have Veg tacos , coffee, coke and orange juice","We have Veg tacos , coffee, coke and orange juice.","Currently, We have Veg tacos , coffee, coke and orange juice"]
+    },
+    {"tag": "veg_enquiry",
+        "patterns": ["Can I see the vegetarian options?","Do you have any vegetarian options??", "Please show me your best vegetarian foods", "I dont want to eat non veg", "I am vegetarian", "vegetarian", "is this place vegetarian?"],
+        "responses": ["Sure! We have Veg tacos , coffee, coke and orange juice","We have Veg tacos , coffee, coke and orange juice.","Currently, We have Veg tacos , coffee, coke and orange juice"]
+    },
+    {
+      "tag": "recipe_enquiry",
+      "patterns": ["Could you tell me more about recipe of this dish?", "What is the recipe of this dish?", "what are the ingredients of this dish?", "tell me the recipe"],
+      "responses": ["Sorry, We have a strict policy , not to disclose the recipe."]
+    },
+    {
+      "tag": "suggest",
+      "patterns": ["what do you recommend?","do you have any suggestions","please suggest something","why don't you recommend me a dish", "help me choose what to order", "Surprise me!", "Do you have any special recommendations for me?", "What do you suggest?", "what is your suggestion", "what is a must try", "what should i try", "what should i eat?", "tell me what to order", "tell me what i should buy", "recommend me a dish", "suggest me a dish"],
+      "responses": ["We have offer on chicken tacos and drinks"]
+    },
+    {
+      "tag": "general",
+      "patterns": ["okay","sure","cool","hmm", "fine", "thanks", "uhuh"],
+      "responses": [":)", "Glad to serve you!", "Happy to help!", "Always happy to assist you!"]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["How long does delivery take?","How long does shipping take?","When do I get my delivery?","delivery?"
+      ],
+      "responses": ["Delivery takes 2-4 days","Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "reserve_table",
+      "patterns": ["I want to reserve a table","Book a table for me","Can I get a reservation?","Reserve a table at your restaurant","can I make a reservation now ?","I would like to make a reservation now","can i reserve a table now ?","can i book a table now ?","Is reservation available ?","is reservations available ?","I would like to book a table","I would like to reserve a table","i would like to book a table","we would like to reserve a table"
+      ],
+      "responses": [
+        "Sure! Can I have your name, please?",
+        "I can help with that! What's your name?"
+      ],
+      "context": ["ask_name"]
+    },
+    {
+      "tag": "cancel_reservation",
+      "patterns": [
+        "Cancel my reservation",
+        "I want to cancel a booking",
+        "Delete my reservation"
+      ],
+      "responses": [
+        "Sure! Can I have the phone number you used for the reservation?"
+      ],
+      "context": ["ask_phone_for_cancel"]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't understand that. Can you rephrase?"
+      ]
+    },
+    {
+      "tag": "menu_request",
+      "patterns": [
+        "Can I see the menu?",
+        "Show me the menu",
+        "What's on the menu?",
+        "Do you have a menu?",
+        "I want to see the menu"
+      ],
+      "responses": [
+        "Sure! Here's our menu:\nTACOS: \nChicken---10$, Grilled Pork---12$, Vegetarian---8$, Beef---15$\nDrinks: Coke---3$, Orange Juice---5$, Coffee---4$\nWhat would you like to order?",
+        "Here's our menu:\nTACOS: \nChiken---10$, Grilled Pork---12$, Vegetarian---8$, Beef---15$\nDRINKS: \nCoke---3$, Orange Juice---5$, Coffee---4$\nWhat would you like to order?(Just write the name of one item at a time if done write 'done')"
+      ]
+    }
+  ]
+}
